@@ -60,6 +60,10 @@ public class Day1 : MonoBehaviour
         CameraManager.Instance.ToggleCamera(1);
         CameraManager.Instance.ToggleCamera(0);
         yield return new WaitForSeconds(3f);
+        DialogueManager.Instance.PlayDialogue("D1eat6");
+        yield return new WaitForSeconds(2f);
+        DialogueManager.Instance.PlayDialogue("D1eat7");
+        yield return new WaitForSeconds(3f);
         CameraManager.Instance.ToggleCamera(0);
         InputManager.Instance.EnableInputs(true);
     }

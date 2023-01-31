@@ -190,7 +190,7 @@ Light:
   m_BoundingSphereOverride: {x: 7.029207e+28, y: 1.7753206e+28, z: 2.7938735e+20, w: -45.680634}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
+  m_ShadowRadius: 0.8
   m_ShadowAngle: 0
 --- !u!114 &324559606619121957
 MonoBehaviour:

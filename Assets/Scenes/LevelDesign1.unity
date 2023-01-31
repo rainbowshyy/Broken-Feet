@@ -1190,7 +1190,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 260b2b92e28c869458a33d7704ceef9c, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 260b2b92e28c869458a33d7704ceef9c, type: 3}
       propertyPath: m_LocalScale.x
@@ -23900,7 +23900,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628534838}
-  m_LocalRotation: {x: -0.0000000066469488, y: 0.92387956, z: -0.38268343, w: -0.000000016047151}
+  m_LocalRotation: {x: 0.000000006584597, y: 0.92387956, z: -0.38268343, w: 0.000000015896624}
   m_LocalPosition: {x: -11.574, y: 1.556, z: -7.5670004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -24654,7 +24654,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 260b2b92e28c869458a33d7704ceef9c, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 260b2b92e28c869458a33d7704ceef9c, type: 3}
       propertyPath: m_LocalScale.x
@@ -27209,6 +27209,16 @@ MonoBehaviour:
     text: "Pass p\xE5 br\xF8det, tjukken."
     speaker: Anastasia
     seconds: 5
+  - name: D1eat6
+    audio: test1
+    text: '[En bjelle ringer]'
+    speaker: 
+    seconds: 2
+  - name: D1eat7
+    audio: test2
+    text: "Dansetimen starter n\xE5!"
+    speaker: ???
+    seconds: 3
   dialogueNameText: {fileID: 718333634}
   dialogueText: {fileID: 1213899403}
 --- !u!4 &722802898
@@ -42831,7 +42841,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 260b2b92e28c869458a33d7704ceef9c, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 260b2b92e28c869458a33d7704ceef9c, type: 3}
       propertyPath: m_LocalScale.x
@@ -45543,7 +45553,7 @@ Light:
   m_InnerSpotAngle: 42.822426
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45571,7 +45581,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -61855,7 +61865,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 260b2b92e28c869458a33d7704ceef9c, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 260b2b92e28c869458a33d7704ceef9c, type: 3}
       propertyPath: m_LocalScale.x
