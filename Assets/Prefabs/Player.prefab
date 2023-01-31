@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8424107086116576316}
   - component: {fileID: 8424107086116576317}
-  - component: {fileID: 8424107086116576318}
+  - component: {fileID: 2336826375923537611}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -52,7 +52,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 1
---- !u!114 &8424107086116576318
+--- !u!114 &2336826375923537611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,11 +61,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8424107086116576263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f597c810273e3ba4c80b0e76ac065635, type: 3}
+  m_Script: {fileID: 11500000, guid: 27fa34f834507c445ba7c05b855a7a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  groundDrag: 6
+  groundDrag: 7
   playerHeight: 2
   groundMask:
     serializedVersion: 2
