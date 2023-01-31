@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Eat : MonoBehaviour
+public class Eat : MonoBehaviour, IInteractable
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private string prompt;
+
+    public string IntPrompt { get; private set; }
+
+    private void Awake()
     {
-        
+        IntPrompt = prompt;
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool Interact()
     {
-        
+        LevelManager.Instance.Progress();
+        gameObject.SetActive(false);
+        return true;
     }
 }

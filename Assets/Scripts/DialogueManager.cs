@@ -24,11 +24,6 @@ public class DialogueManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void Start()
-    {
-        PlayDialogue("test1");
-    }
-
     public void PlayDialogue(string name)
     {
         DialogueStruct d = Array.Find(dialogues, dialogue => dialogue.name == name);

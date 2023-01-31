@@ -21,4 +21,16 @@ public class InputManager : MonoBehaviour
         this.InputActions = new InputActions();
         this.InputActions.Player.Enable();
     }
+
+    public void EnableInputs(bool enable)
+    {
+        if (enable)
+        {
+            this.InputActions.Player.Enable();
+        }
+        else
+        {
+            this.InputActions.Player.Disable();
+        }
+    }
 }

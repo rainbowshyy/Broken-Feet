@@ -9,30 +9,17 @@ public class PlayerCam : MonoBehaviour
 
     [SerializeField] private Transform orientation;
 
-    private float rotationX;
-    private float rotationY;
-
-    public bool canMove;
+    [SerializeField] private float rotationX;
+    [SerializeField] private float rotationY;
 
     private void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-        canMove = true;
     }
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.K))
-        {
-            CameraManager.Instance.ToggleCamera(0);
-        }
-
-        if (!canMove)
-        {
-            return;
-        }
 
         Vector2 mouseInput = InputManager.Instance.InputActions.Player.MouseLook.ReadValue<Vector2>();
 
