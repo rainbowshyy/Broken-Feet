@@ -6,7 +6,7 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    [SerializeField] private DialogueStruct[] dialogues;
+    [SerializeField] private DialogueDataContainer dialogueData;
 
     [SerializeField] private TextMeshProUGUI dialogueNameText;
     [SerializeField] private TextMeshProUGUI dialogueText;
@@ -26,9 +26,9 @@ public class DialogueManager : MonoBehaviour
 
     public void PlayDialogue(string name)
     {
-        DialogueStruct d = Array.Find(dialogues, dialogue => dialogue.name == name);
+        DialogueData d = dialogueData.dialogueData.Find(dialogue => dialogue.Id == name);
 
-        StartCoroutine(DialogueText(d.text, d.speaker, d.seconds, d.audio));
+        StartCoroutine(DialogueText(d.Text, d.Speaker, d.Time, d.Audio));
     }
 
     private IEnumerator DialogueText(string text, string speaker, float time, string audio)
@@ -43,14 +43,4 @@ public class DialogueManager : MonoBehaviour
 
         AudioManager.Instance.Stop(audio);
     }
-}
-
-[System.Serializable]
-public struct DialogueStruct
-{
-    public string name;
-    public string audio;
-    public string text;
-    public string speaker;
-    public float seconds;
 }
