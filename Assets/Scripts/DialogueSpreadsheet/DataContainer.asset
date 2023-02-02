@@ -24,6 +24,11 @@ MonoBehaviour:
     Text: "St\xE5 opp!"
     Time: 3
     Audio: KoyaTEST
+  - Id: D1bully
+    Speaker: Anastasia
+    Text: Hei!
+    Time: 2
+    Audio: AnastasiaTEST
   - Id: D1eat1
     Speaker: Anastasia
     Text: Man ser trusa di!
@@ -36,7 +41,7 @@ MonoBehaviour:
     Audio: TEST
   - Id: D1eat3
     Speaker: Anastasia
-    Text: "Oi, tok du veldig mye br\xF8d?"
+    Text: "Oi, skal du faktisk spise s\xE5 mye br\xF8d?"
     Time: 3
     Audio: AnastasiaTEST
   - Id: D1eat4
@@ -105,4 +110,4 @@ MonoBehaviour:
     Speaker: Sonya
     Text: Til dansesalen jenter!
     Time: 2
-    Audio: JenteTEST
+    Audio: SonyaTEST

@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI dialogueNameText;
     [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private Animator fade;
 
     public static DialogueManager Instance { get; private set; }
 
@@ -42,5 +43,10 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
 
         AudioManager.Instance.Stop(audio);
+    }
+
+    public void Fade(bool doFade)
+    {
+        fade.SetBool("fadeOut", doFade);
     }
 }
