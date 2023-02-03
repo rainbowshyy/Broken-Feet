@@ -88,5 +88,9 @@ public enum LocationType
     SonyaConvo,
     SonyaBell,
     SonyaDansesal,
-    AnastasiaDansesal
+    AnastasiaDansesal,
+    KoyaDansesal,
+    SonyaTrash,
+    KoyaHit
+
 }

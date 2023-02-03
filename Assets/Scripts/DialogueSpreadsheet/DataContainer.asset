@@ -57,7 +57,7 @@ MonoBehaviour:
   - Id: D1eat6
     Speaker: Maria
     Text: Det var den rutinen som knakk beinet til Strovska Vonurska, ikke sant?
-    Time: 5
+    Time: 4
     Audio: JenteTEST
   - Id: D1eat7
     Speaker: Olga
@@ -111,3 +111,33 @@ MonoBehaviour:
     Text: Til dansesalen jenter!
     Time: 2
     Audio: SonyaTEST
+  - Id: D2wake1
+    Speaker: Maria
+    Text: "Viktoria, dansetimen starter n\xE5!"
+    Time: 4
+    Audio: JenteTEST
+  - Id: D2wake2
+    Speaker: Polinska
+    Text: "Har Anastasia g\xE5tt allerede?"
+    Time: 2
+    Audio: JenteTEST
+  - Id: D2wake3
+    Speaker: Daria
+    Text: Jeg har ikke sett henne i hele morges.
+    Time: 2
+    Audio: JenteTEST
+  - Id: D2wake4
+    Speaker: Fransesca
+    Text: Hun er sikkert i dansesalen bare.
+    Time: 2
+    Audio: JenteTEST
+  - Id: D2wake5
+    Speaker: Olga
+    Text: (Fniser) Koyas favoritt.
+    Time: 2
+    Audio: JenteTEST
+  - Id: D2wake6
+    Speaker: Daria
+    Text: Slutt da.
+    Time: 2
+    Audio: JenteTEST
