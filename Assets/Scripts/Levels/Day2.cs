@@ -75,7 +75,7 @@ public class Day2: MonoBehaviour
     IEnumerator SonyaTrash()
     {
         NPCManager.Instance.NPCtoLocation(NPCType.Sonya, LocationType.SonyaTrash);                  //Sonya walks to where she will throw the paper with symbol
-
+        yield return new WaitForSeconds(1);
     }
 
     IEnumerator KoyaHitScene()
