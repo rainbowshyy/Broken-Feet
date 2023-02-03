@@ -37,6 +37,7 @@ public class PlayerInteract : MonoBehaviour
         }
         else
         {
+            interactable = null;
             promptUI.text = "";
         }
     }

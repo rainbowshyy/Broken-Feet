@@ -57,7 +57,7 @@ MonoBehaviour:
   - Id: D1eat6
     Speaker: Maria
     Text: Det var den rutinen som knakk beinet til Strovska Vonurska, ikke sant?
-    Time: 5
+    Time: 4
     Audio: JenteTEST
   - Id: D1eat7
     Speaker: Olga
@@ -105,9 +105,136 @@ MonoBehaviour:
     Speaker: 
     Text: '[Sonya ringer i en bjelle]'
     Time: 2
-    Audio: JenteTEST
+    Audio: None
   - Id: D1eat16
     Speaker: Sonya
     Text: Til dansesalen jenter!
     Time: 2
     Audio: SonyaTEST
+  - Id: D1dance1
+    Speaker: 
+    Text: "Jentene st\xE5r ved barrene og t\xF8yer, armer, bein. Koya klapper i hendene
+      og jentene stiller seg opp p\xE5 rekke langs veggen. De gj\xF8r chass\xE8 over
+      gulvet."
+    Time: 7
+    Audio: None
+  - Id: D1dance2
+    Speaker: Koya
+    Text: "G\xE5 i parene deres!"
+    Time: 3
+    Audio: KoyaTEST
+  - Id: D1dance3
+    Speaker: 
+    Text: "Anastasia g\xE5r motvillig bort til Viktoria, alle jentene gj\xF8r trinn
+      over gulvet med armene hektet i partneren sin."
+    Time: 5
+    Audio: None
+  - Id: D1dance4
+    Speaker: 
+    Text: "N\xE5r det er Viktoria og Anastasia sin tur spenner Anastasia bein p\xE5
+      Viktoria, s\xE5 hun faller."
+    Time: 5
+    Audio: None
+  - Id: D1dance5
+    Speaker: Koya
+    Text: "Reis deg Viktoria! Skjerp deg! Vis deg verdig! Kun en svak danser kan
+      falle i et s\xE5pass enkelt trinn!"
+    Time: 6
+    Audio: KoyaTEST
+  - Id: D1dance6
+    Speaker: Koya
+    Text: Dansetimen er ferdig!
+    Time: 3
+    Audio: KoyaTEST
+  - Id: D2wake1
+    Speaker: Maria
+    Text: "Viktoria, dansetimen starter n\xE5!"
+    Time: 4
+    Audio: JenteTEST
+  - Id: D2wake2
+    Speaker: Polinska
+    Text: "Har Anastasia g\xE5tt allerede?"
+    Time: 3
+    Audio: JenteTEST
+  - Id: D2wake3
+    Speaker: Daria
+    Text: Jeg har ikke sett henne i hele morges.
+    Time: 3
+    Audio: JenteTEST
+  - Id: D2wake4
+    Speaker: Fransesca
+    Text: Hun er sikkert i dansesalen bare.
+    Time: 3
+    Audio: JenteTEST
+  - Id: D2wake5
+    Speaker: Olga
+    Text: (Fniser) Koyas favoritt.
+    Time: 2
+    Audio: JenteTEST
+  - Id: D2wake6
+    Speaker: Daria
+    Text: Slutt da.
+    Time: 2
+    Audio: JenteTEST
+  - Id: D2convo1
+    Speaker: Viktoria
+    Text: Hvor er Anastasia?
+    Time: 4
+    Audio: ViktoriaTEST
+  - Id: D2convo2
+    Speaker: Koya
+    Text: "Viktoria, du f\xE5r g\xE5 \xE5 t\xF8ye p\xE5 sovev\xE6relset"
+    Time: 3
+    Audio: KoyaTEST
+  - Id: D2convo3
+    Speaker: Viktoria
+    Text: Men...
+    Time: 2
+    Audio: ViktoriaTEST
+  - Id: D2convo4
+    Speaker: Koya
+    Text: "G\xE5 n\xE5!"
+    Time: 2
+    Audio: KoyaTEST
+  - Id: diary1
+    Speaker: 14. August
+    Text: "N\xE5 er det bare \xE8n uke til danseskolen. Det blir litt skummelt...
+      men heldigvis er Anastasia der med meg. Jeg vil l\xE6re meg 1000 piruetter!"
+    Time: 0
+    Audio: 
+  - Id: diary2
+    Speaker: 1. September
+    Text: "I dag danset vi i 8 timer. Jeg er s\xE5 sliten men det er superg\xF8y!"
+    Time: 0
+    Audio: 
+  - Id: diary3
+    Speaker: 8. September
+    Text: "Denne helgen fikk vi reise hjem. Jeg fikk hilse p\xE5 de nye katteungene
+      til naboen! Det f\xF8les godt \xE5 v\xE6re tilbake p\xE5 skolen. Selv om...
+      Jeg skulle \xF8nske jeg kunne danse bort bl\xE5merkene til Anastasia."
+    Time: 0
+    Audio: 
+  - Id: diary4
+    Speaker: 14. September
+    Text: "De andre jentene er litt vanskelige \xE5 prate med. Men jeg liker jo \xE5
+      v\xE6re alene. Ogs\xE5 har jeg jo Anastasia! Hun har f\xE5tt sikkert 8 venner.
+      Jeg har f\xE5tt... Kanskje 2? N\xE5 roper Koya. Jeg m\xE5 komme meg til dansesalen!"
+    Time: 0
+    Audio: 
+  - Id: diary5
+    Speaker: 15. September
+    Text: "\xC5HHH!!!! Jeg er s\xE5 dum. Jeg sa hemmeligheten til Anastasia til de
+      andre jentene. Jeg tror hun er sint p\xE5 meg. Det er jo ikke hennes feil at
+      faren hennes sl\xE5r henne... Jeg h\xE5per vi kan bli venner igjen."
+    Time: 0
+    Audio: 
+  - Id: diary6
+    Speaker: 17. September
+    Text: "I dag l\xE6rte vi pas de bourre."
+    Time: 0
+    Audio: 
+  - Id: diary7
+    Speaker: 18. September
+    Text: Anastasia hater meg.
+    Time: 0
+    Audio: 

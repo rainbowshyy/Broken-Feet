@@ -5,7 +5,7 @@ using System;
 
 public class LevelManager : MonoBehaviour
 {
-    private int levelStep;
+    [SerializeField] private int levelStep;
 
     public static LevelManager Instance { get; private set; }
 
@@ -21,7 +21,6 @@ public class LevelManager : MonoBehaviour
             return;
         }
         Instance = this;
-        levelStep = 0;
     }
 
     private void Update()

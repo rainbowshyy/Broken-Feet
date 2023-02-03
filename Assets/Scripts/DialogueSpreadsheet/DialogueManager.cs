@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private DialogueDataContainer dialogueData;
 
+    [SerializeField] private TextMeshProUGUI cutsceneText;
     [SerializeField] private TextMeshProUGUI dialogueNameText;
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private Animator fade;
@@ -45,8 +46,33 @@ public class DialogueManager : MonoBehaviour
         AudioManager.Instance.Stop(audio);
     }
 
+    private IEnumerator CutsceneText(string text, float time, string audio)
+    {
+        AudioManager.Instance.Play(audio);
+
+        cutsceneText.text = text;
+        yield return new WaitForSeconds(time);
+        cutsceneText.text = "";
+
+        AudioManager.Instance.Stop(audio);
+    }
+
     public void Fade(bool doFade)
     {
         fade.SetBool("fadeOut", doFade);
+    }
+
+    public void PlayCutscene(string name)
+    {
+        DialogueData d = dialogueData.dialogueData.Find(dialogue => dialogue.Id == name);
+
+        StartCoroutine(CutsceneText(d.Text, d.Time, d.Audio));
+    }
+
+    public void ShowDiaryEntry(int id)
+    {
+        DialogueData d = dialogueData.dialogueData.Find(dialogue => dialogue.Id == DiaryManager.Instance.entries[id]);
+
+        DiaryManager.Instance.ShowEntry(d.Text, d.Speaker);
     }
 }

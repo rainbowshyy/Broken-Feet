@@ -6,7 +6,10 @@ public class TriggerZone : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        LevelManager.Instance.Progress();
-        Destroy(gameObject);
+        if (other.tag == "Player")
+        {
+            LevelManager.Instance.Progress();
+            Destroy(gameObject);
+        }
     }
 }
